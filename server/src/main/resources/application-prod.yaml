@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/todo_app
+    username: root # TODO: ENV VAR like above
+    password: root # TODO: ENV VAR like above
+
